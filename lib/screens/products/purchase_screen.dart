@@ -25,6 +25,7 @@ class _PurchaseScreenState extends State<PurchaseScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green[100],
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
@@ -53,12 +54,7 @@ class _PurchaseScreenState extends State<PurchaseScreen> {
               alignment: Alignment.center,
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
-                color: const Color.fromARGB(
-                  255,
-                  153,
-                  142,
-                  142,
-                ),
+                color: Colors.green[100],
               ),
 
               child: Text(

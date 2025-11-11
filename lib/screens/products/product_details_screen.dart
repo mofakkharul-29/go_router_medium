@@ -14,6 +14,7 @@ class ProductDetailsScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
+      backgroundColor: Colors.green[100],
       appBar: AppBar(
         title: Text('Details'),
         centerTitle: true,
